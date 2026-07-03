@@ -1,12 +1,12 @@
 def calculate_sum(numbers):
-    """Coalculate the sum of a list of numbers."""
+    """Calculate the sum of a list of numbers."""
     total = 0
     for num in numbers:
         total += num
     return total
 
 def calculate_average(numbers):
-    """Coalculate the average of a list of numbers."""
+    """Calculate the average of a list of numbers."""
     if len(numbers) == 0:
         return 0
     return calculate_sum(numbers) / len(numbers)
